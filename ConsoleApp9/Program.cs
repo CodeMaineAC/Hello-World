@@ -1,4 +1,5 @@
-﻿using System;
+﻿using static System.Console;
+using System;
 
 namespace ConsoleApp9
 {
@@ -6,7 +7,13 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World made by Code Maine!");
+            WriteLine("Hello World made by Code Maine!");
+
+            int x = 9;
+            if (true)
+            {
+                WriteLine("Another Line with more changes" + x.ToString());
+            }
         }
     }
 }
