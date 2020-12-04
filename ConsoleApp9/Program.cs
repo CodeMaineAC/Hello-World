@@ -10,7 +10,7 @@ namespace ConsoleApp9
             WriteLine("Hello World made by Code Maine!");
 
             int x = 9;
-            if (true)
+            for(int i=0 ; i<10 ; i++)
             {
                 WriteLine("Another Line but different changes" + x.ToString());
             }
